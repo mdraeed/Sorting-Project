@@ -1,6 +1,6 @@
 import Foundation
 
-func swap ( strings:inout[String],firstIndex:Int,secondIndex:Int){
+func swap ( strings:inout[Substring],firstIndex:Int,secondIndex:Int){
     let firstIndexValue = strings[firstIndex]
     let secondIndexValue = strings[secondIndex]
 
@@ -25,8 +25,23 @@ func readLines() -> Array<String> {
        return lines                                                                                                                                                
 }        
 
+func readFile(filename:String) -> Array<Substring> {
+
+	//Read in the file
+	let contents = try! String(contentsOfFile: filename)
+
+	//Split the file 
+	let lines = contents.split(separator:"\n")
+
+        print("Num words: \(lines.count)")
+
+	return lines
+}
+
 //get the list of strings
-var strings: Array<String> = readLines()
+//var strings: Array<String> = readLines()
+var filename = "test.txt"
+var strings = readFile(filename:filename)
 var totalCount = 0
 var count = 0
 var size = strings.count
