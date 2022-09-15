@@ -37,7 +37,7 @@ func readFile(filename:String) -> Array<Substring> {
 
 //get the list of strings from user input
 //var strings: Array<String> = readLines()
-var filename = "test.txt"
+var filename = "random.txt"
 //Arrary of Substrings
 var strings = readFile(filename:filename)
 var totalCount = 0
