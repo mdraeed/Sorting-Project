@@ -54,8 +54,13 @@ repeat {
         let firstIndex:Int = index 
         let secondIndex:Int = index + 1
         if(strings[secondIndex].lowercased() < strings[firstIndex].lowercased()){
-            swap( strings:&strings, firstIndex:firstIndex, secondIndex:secondIndex)
-           count = count + 1
+//            swap( strings:&strings, firstIndex:firstIndex, secondIndex:secondIndex)
+//Change to swap in place not in method
+            let firstIndexValue = strings[firstIndex]
+            let secondIndexValue = strings[secondIndex] 
+            strings[firstIndex] = secondIndexValue
+            strings[secondIndex] = firstIndexValue  
+            count = count + 1
         }
         index = index + 1
     } while (index + 1 < size)
