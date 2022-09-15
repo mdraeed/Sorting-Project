@@ -9,17 +9,14 @@ func swap ( strings:inout[Substring],firstIndex:Int,secondIndex:Int){
 } 
 
 func readLines() -> Array<String> {                                                                                                                             
-
      var lines: Array<String> = Array()                                                                                                                          
      var line:String?                                                                                                                                           
-
      repeat { 
         line = readLine()                                                                                                                                 
         if line != "" {     
             // print("Adding \(line!)")                                                                                                                              
                    lines.append(line!)                                                                                                                            
         }                                                                                                                                                  
-
       }while line != ""
       print("Sorting \(lines)")                                                                                                                         
        return lines                                                                                                                                                
@@ -30,7 +27,7 @@ func readFile(filename:String) -> Array<Substring> {
 	//Read in the file
 	let contents = try! String(contentsOfFile: filename)
 
-	//Split the file 
+	//Split the file on endline (\n) 
 	let lines = contents.split(separator:"\n")
 
         print("Num words: \(lines.count)")
@@ -38,9 +35,10 @@ func readFile(filename:String) -> Array<Substring> {
 	return lines
 }
 
-//get the list of strings
+//get the list of strings from user input
 //var strings: Array<String> = readLines()
 var filename = "test.txt"
+//Arrary of Substrings
 var strings = readFile(filename:filename)
 var totalCount = 0
 var count = 0
