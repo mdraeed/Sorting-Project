@@ -178,7 +178,7 @@
                 (erasure_expr implicit type='Any' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13]
                   (interpolated_string_literal_expr type='String' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] trailing_quote_loc=main.swift:21:30 literal_capacity=8 interpolation_count=1 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
                     (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] var=main.(file).readLines().$interpolation
-                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] @ 0x8164fa8)
+                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] @ 0x9a2b9b8)
                       (brace_stmt implicit range=[main.swift:21:13 - line:21:13]
                         (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=private readImpl=stored writeImpl=stored readWriteImpl=stored)
 
@@ -313,7 +313,7 @@
                 (erasure_expr implicit type='Any' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15]
                   (interpolated_string_literal_expr type='String' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] trailing_quote_loc=main.swift:33:41 literal_capacity=11 interpolation_count=1 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
                     (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] var=main.(file).readFile(filename:).$interpolation
-                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] @ 0x81ae380)
+                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] @ 0x9a73780)
                       (brace_stmt implicit range=[main.swift:33:15 - line:33:15]
                         (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=private readImpl=stored writeImpl=stored readWriteImpl=stored)
 
@@ -552,7 +552,7 @@
                       (argument
                         (call_expr type='String' location=main.swift:56:33 range=[main.swift:56:12 - line:56:44] nothrow
                           (dot_syntax_call_expr type='() -> String' location=main.swift:56:33 range=[main.swift:56:12 - line:56:33] nothrow
-                            (declref_expr type='(Substring) -> () -> String' location=main.swift:56:33 range=[main.swift:56:33 - line:56:33] decl=Swift.(file).Substring extension.lowercased() function_ref=double)
+                            (declref_expr type='(Substring) -> () -> String' location=main.swift:56:33 range=[main.swift:56:33 - line:56:33] decl=Swift.(file).Substring extension.uppercased() function_ref=double)
                             (argument_list implicit
                               (argument
                                 (load_expr implicit type='Substring' location=main.swift:56:19 range=[main.swift:56:12 - line:56:31]
@@ -568,7 +568,7 @@
                       (argument
                         (call_expr type='String' location=main.swift:56:68 range=[main.swift:56:48 - line:56:79] nothrow
                           (dot_syntax_call_expr type='() -> String' location=main.swift:56:68 range=[main.swift:56:48 - line:56:68] nothrow
-                            (declref_expr type='(Substring) -> () -> String' location=main.swift:56:68 range=[main.swift:56:68 - line:56:68] decl=Swift.(file).Substring extension.lowercased() function_ref=double)
+                            (declref_expr type='(Substring) -> () -> String' location=main.swift:56:68 range=[main.swift:56:68 - line:56:68] decl=Swift.(file).Substring extension.uppercased() function_ref=double)
                             (argument_list implicit
                               (argument
                                 (load_expr implicit type='Substring' location=main.swift:56:55 range=[main.swift:56:48 - line:56:66]
@@ -696,7 +696,7 @@
                 (erasure_expr implicit type='Any' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7]
                   (interpolated_string_literal_expr type='String' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] trailing_quote_loc=main.swift:66:26 literal_capacity=8 interpolation_count=1 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
                     (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] var=main.(file).top-level code.$interpolation
-                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] @ 0x7e72e28)
+                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] @ 0x9a12e88)
                       (brace_stmt implicit range=[main.swift:66:7 - line:66:7]
                         (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=fileprivate readImpl=stored writeImpl=stored readWriteImpl=stored)
 

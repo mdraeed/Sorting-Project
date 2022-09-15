@@ -53,7 +53,7 @@ repeat {
     repeat {
         let firstIndex:Int = index 
         let secondIndex:Int = index + 1
-        if(strings[secondIndex].lowercased() < strings[firstIndex].lowercased()){
+        if(strings[secondIndex].uppercased() < strings[firstIndex].uppercased()){
             swap( strings:&strings, firstIndex:firstIndex, secondIndex:secondIndex)
            count = count + 1
         }
