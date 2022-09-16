@@ -178,7 +178,7 @@
                 (erasure_expr implicit type='Any' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13]
                   (interpolated_string_literal_expr type='String' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] trailing_quote_loc=main.swift:21:30 literal_capacity=8 interpolation_count=1 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
                     (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] var=main.(file).readLines().$interpolation
-                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] @ 0x9a2b9b8)
+                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:21:13 range=[main.swift:21:13 - line:21:13] @ 0x8b1c908)
                       (brace_stmt implicit range=[main.swift:21:13 - line:21:13]
                         (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=private readImpl=stored writeImpl=stored readWriteImpl=stored)
 
@@ -313,7 +313,7 @@
                 (erasure_expr implicit type='Any' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15]
                   (interpolated_string_literal_expr type='String' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] trailing_quote_loc=main.swift:33:41 literal_capacity=11 interpolation_count=1 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
                     (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] var=main.(file).readFile(filename:).$interpolation
-                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] @ 0x9a73780)
+                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:33:15 range=[main.swift:33:15 - line:33:15] @ 0x8b63480)
                       (brace_stmt implicit range=[main.swift:33:15 - line:33:15]
                         (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=private readImpl=stored writeImpl=stored readWriteImpl=stored)
 
@@ -366,9 +366,9 @@
       (pattern_binding_decl range=[main.swift:40:1 - line:40:16]
         (pattern_named type='String' 'filename')
         Original init:
-        (string_literal_expr type='String' location=main.swift:40:16 range=[main.swift:40:16 - line:40:16] encoding=utf8 value="test.txt" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)
+        (string_literal_expr type='String' location=main.swift:40:16 range=[main.swift:40:16 - line:40:16] encoding=utf8 value="random.txt" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)
         Processed init:
-        (string_literal_expr type='String' location=main.swift:40:16 range=[main.swift:40:16 - line:40:16] encoding=utf8 value="test.txt" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**))
+        (string_literal_expr type='String' location=main.swift:40:16 range=[main.swift:40:16 - line:40:16] encoding=utf8 value="random.txt" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**))
 ))
   (var_decl range=[main.swift:40:5 - line:40:5] "filename" type='String' interface type='String' access=internal readImpl=stored writeImpl=stored readWriteImpl=stored)
   (top_level_code_decl range=[main.swift:42:1 - line:42:41]
@@ -696,7 +696,7 @@
                 (erasure_expr implicit type='Any' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7]
                   (interpolated_string_literal_expr type='String' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] trailing_quote_loc=main.swift:66:26 literal_capacity=8 interpolation_count=1 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
                     (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] var=main.(file).top-level code.$interpolation
-                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] @ 0x9a12e88)
+                      (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:66:7 range=[main.swift:66:7 - line:66:7] @ 0x8b01df8)
                       (brace_stmt implicit range=[main.swift:66:7 - line:66:7]
                         (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=fileprivate readImpl=stored writeImpl=stored readWriteImpl=stored)
 
